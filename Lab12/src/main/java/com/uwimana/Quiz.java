@@ -1,5 +1,7 @@
 package com.uwimana;
 
+import java.util.Random;
+
 public class Quiz {
 
     private static String [] questions = {
@@ -12,8 +14,13 @@ public class Quiz {
 
     private static int[] answers = {9,8,36,13,32};
 
-    public Quiz(){
+    private int index;
 
+    private int score;
+
+    public Quiz(){
+        index = 0;
+        score = 0;
     }
 
     public  String[] getQuestions() {
@@ -24,4 +31,28 @@ public class Quiz {
         return answers;
     }
 
+    public String getNextQuestion(){
+        String question = "";
+        if (index<questions.length){
+            question =  questions[index];
+            index = index+1;
+        }else{
+            question= null;
+        }
+        return question;
+    }
+    public void checkAnswer(int answer){
+
+        if (answer== answers[index-1]){
+            score = score + 1;
+        }
+    }
+
+    public int getScore(){
+        return score;
+    }
+
+    public int getNextIndex(){
+        return index;
+    }
 }

@@ -9,63 +9,62 @@ import javax.servlet.http.HttpSession;
 import java.io.*;
 
 
-
 @WebServlet(name = "QuizServlet", urlPatterns = {"/quiz"})
 public class QuizServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        HttpSession session = request.getSession(true);
-
-        response.setContentType("text/html");
-        PrintWriter out = response.getWriter();
-        Quiz q;
-        if (session.getAttribute("quiz") == null){
-             q = new Quiz();
-            session.setAttribute("quiz", q );
-        }else{
-             q = (Quiz) session.getAttribute("quiz");
-        }
-
-        int score = 0;
-
-        try{
-            String quizAnswer = request.getParameter("answer");
-            System.out.println(quizAnswer);
-
-            for (int i = 0 ; i< q.getQuestions().length; i++){
-                System.out.println("inside for loop");
-                out.println("<h2>The number quiz</h2>");
-                out.println("<p>Your current score is "+ score+"</p>");
-                out.println("<p> Guess the number in sequence</p>");
-                out.println("<p>"+q.getQuestions()[i]+" </p>");
-                out.println("<form action =\"quiz\" method=\"post\">");
-
-                if(!("".equals(quizAnswer))){
-                    System.out.println("inside if");
-                    out.println("Your answer <input type=\"text\" name=\"answer\">");
-                    int answer = Integer.valueOf(quizAnswer);
-                    if (answer == q.getAnswers()[i]){
-                        score++;
-                    }
-
-                }else{
-                    out.println("Your answer <input type=\"text\" name=\"answer\">");
-                }
-                out.println("<input type=\"submit\" value=\"Submit\">");
-                out.print("</form>");
-            }
-
-            out.println("<h2>The number quiz</h2>");
-            out.println("<p>Your current score is "+ score+"</p>");
-            out.println("<p>You have completed the Number quiz with a score "+ score+" out of 5</p>");
-
-        }catch (Exception e){
-            out.print(e);
-        }
-
+        doGet(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+        String submit = request.getParameter("submit");
+        String quizAnswer = request.getParameter("answer");
+
+        System.out.println("submit " + submit);
+        System.out.println("answer " + quizAnswer);
+
+        HttpSession session = request.getSession();
+
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
+
+        Quiz q;
+        if (submit != null && quizAnswer != null) {
+            q = (Quiz) session.getAttribute("quiz");
+            if (!("".equals(quizAnswer))) {
+                System.out.println("current index " + q.getNextIndex());
+                q.checkAnswer(Integer.valueOf(quizAnswer));
+            } else {
+                //out.println("Your answer <input type=\"text\" name=\"answer\">");
+            }
+
+        } else {
+            q = new Quiz();
+            session.setAttribute("quiz", q);
+            System.out.println(q.getNextIndex());
+        }
+        if (q.getNextIndex() < q.getQuestions().length) {
+            out.println("<html>");
+            out.println("<body>");
+            out.println("<h2>The number quiz</h2>");
+            out.println("<p>Your current score is " + q.getScore() + "</p>");
+            out.println("<p> Guess the number in sequence</p>");
+            out.println("<p>" + q.getNextQuestion() + " </p>");
+            System.out.println(q.getNextIndex());
+
+            out.println("<form action =\"quiz\" method=\"get\">");
+            out.println("Your answer <input type=text name=answer>");
+            out.println("<input type=submit value=Submit name=submit>");
+            out.print("</form>");
+            out.println("</body>");
+            out.println("</html>");
+        } else {
+            out.println("<h2>The number quiz</h2>");
+            out.println("<p>Your current score is " + q.getScore() + "</p>");
+            out.println("<p>You have completed the Number quiz with a score " + q.getScore() + " out of 5</p>");
+        }
     }
 }
+
+
