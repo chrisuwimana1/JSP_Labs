@@ -10,6 +10,7 @@
         <module name="Lab12" />
         <module name="Lab11" />
         <module name="BeerSelection" />
+        <module name="Lab14" />
       </profile>
     </annotationProcessing>
   </component>

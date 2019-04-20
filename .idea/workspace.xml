@@ -9,15 +9,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117a9eb4-723f-4440-943c-5196ec51609f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab13/src/main/java/quiz/Quiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab13/src/main/java/quiz/QuizServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab13/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="117a9eb4-723f-4440-943c-5196ec51609f" name="Default Changelist" comment="Lab 13 f">
+      <change afterPath="$PROJECT_DIR$/Lab14/Lab14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab14/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab12/target/Lab12/WEB-INF/classes/com/uwimana/QuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12/target/Lab12/WEB-INF/classes/com/uwimana/QuizServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab12/target/Lab12/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12/target/Lab12/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab12/target/classes/com/uwimana/QuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12/target/classes/com/uwimana/QuizServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab13/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab13/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,6 +23,7 @@
     <ignored path="$PROJECT_DIR$/Lab12/target/" />
     <ignored path="$PROJECT_DIR$/BeerSelection/target/" />
     <ignored path="$PROJECT_DIR$/Lab13/target/" />
+    <ignored path="$PROJECT_DIR$/Lab14/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,33 +34,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab13/src/main/java/quiz/Quiz.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab13/src/main/java/quiz/QuizServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="22">
+              <caret line="34" selection-start-line="34" selection-end-line="40" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lab13/src/main/webapp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/Lab14/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            <state relative-caret-position="228">
+              <caret line="59" column="65" lean-forward="true" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -107,6 +94,7 @@
         <option value="$PROJECT_DIR$/Lab13/src/main/java/quiz/QuizServlet.java" />
         <option value="$PROJECT_DIR$/Lab13/src/main/java/quiz/Quiz.java" />
         <option value="$PROJECT_DIR$/Lab13/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/Lab14/pom.xml" />
       </list>
     </option>
   </component>
@@ -129,8 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,46 +127,14 @@
             <path>
               <item name="WapJspLabs" type="b2602c69:ProjectViewProjectNode" />
               <item name="WapJspLabs" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WapJspLabs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WapJspLabs" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WapJspLabs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WapJspLabs" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WapJspLabs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WapJspLabs" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WapJspLabs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WapJspLabs" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WapJspLabs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WapJspLabs" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab14" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,6 +144,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Lab13/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -304,8 +259,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat" />
       <item itemvalue="JavaScript Debug.index.jsp" />
+      <item itemvalue="Tomcat Server.Tomcat" />
     </list>
     <recent_temporary>
       <list>
@@ -326,7 +281,10 @@
       <workItem from="1555460642714" duration="14316000" />
       <workItem from="1555509609086" duration="12562000" />
       <workItem from="1555557465090" duration="241000" />
-      <workItem from="1555563616716" duration="11576000" />
+      <workItem from="1555563616716" duration="13725000" />
+      <workItem from="1555788737921" duration="456000" />
+      <workItem from="1555789234579" duration="800000" />
+      <workItem from="1555804560135" duration="148000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 12 finish">
       <created>1555601123952</created>
@@ -335,17 +293,33 @@
       <option name="project" value="LOCAL" />
       <updated>1555601123952</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lab 13 finish">
+      <created>1555605824702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555605824702</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38695000" />
+    <option name="totallyTimeSpent" value="42248000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8804878" visible="true" weight="0.23676248" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8804878" visible="true" weight="0.24810892" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -355,11 +329,11 @@
       <window_info id="Web" order="7" sideWeight="0.11951219" side_tool="true" weight="0.23676248" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -418,7 +392,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lab 12 finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 12 finish" />
+    <MESSAGE value="Lab 13 finish" />
+    <MESSAGE value="Lab 13 f" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 13 f" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Lab11/pom.xml">
@@ -452,13 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="34" selection-start-line="34" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -510,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab13/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab12/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -534,27 +496,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab13/src/main/java/quiz/Quiz.java">
+    <entry file="file://$PROJECT_DIR$/Lab13/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="257">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab13/src/main/java/quiz/QuizServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab13/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/Lab13/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="170">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab13/src/main/java/quiz/Quiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="34" selection-start-line="34" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab14/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="59" column="65" lean-forward="true" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
         </state>
       </provider>
     </entry>

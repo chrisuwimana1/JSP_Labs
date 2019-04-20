@@ -12,6 +12,7 @@
     <module>Lab12</module>
       <module>BeerSelection</module>
       <module>Lab13</module>
+      <module>Lab14</module>
   </modules>
   <packaging>pom</packaging>
 
