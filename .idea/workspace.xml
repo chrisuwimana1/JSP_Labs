@@ -9,14 +9,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117a9eb4-723f-4440-943c-5196ec51609f" name="Default Changelist" comment="Lab 13 f">
-      <change afterPath="$PROJECT_DIR$/Lab14/Lab14.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab14/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="117a9eb4-723f-4440-943c-5196ec51609f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Lab11/target/" />
@@ -284,7 +277,7 @@
       <workItem from="1555563616716" duration="13725000" />
       <workItem from="1555788737921" duration="456000" />
       <workItem from="1555789234579" duration="800000" />
-      <workItem from="1555804560135" duration="148000" />
+      <workItem from="1555804560135" duration="798000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 12 finish">
       <created>1555601123952</created>
@@ -300,11 +293,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555605824702</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lab 14">
+      <created>1555804743560</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555804743560</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42248000" />
+    <option name="totallyTimeSpent" value="42898000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -394,7 +394,8 @@
     <MESSAGE value="Lab 12 finish" />
     <MESSAGE value="Lab 13 finish" />
     <MESSAGE value="Lab 13 f" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 13 f" />
+    <MESSAGE value="Lab 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 14" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Lab11/pom.xml">
